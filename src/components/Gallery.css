@@ -1,0 +1,44 @@
+/* src/components/Gallery.css */
+.card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    color: #007bff;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem !important;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .p-4 {
+    padding: 1.5rem !important;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 768px) {
+    .card-body {
+      padding: 1rem;
+    }
+  }
+  

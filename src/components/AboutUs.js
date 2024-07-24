@@ -20,7 +20,7 @@ const AboutUs = () => {
         </Col>
         <Col md={6}>
           <h2><FaChalkboardTeacher /> Message from the Principal</h2>
-          <p>Our principal's message goes here. It inspires and motivates the students and staff to strive for excellence.</p>
+          <p>Our principal's message goes here. At Springdale, we believe in nurturing the potential of every student and guiding them towards a successful future.</p>
         </Col>
       </Row>
 
@@ -30,7 +30,12 @@ const AboutUs = () => {
         </Col>
         <Col md={6} className="order-md-1">
           <h2><FaBuilding /> Infrastructure and Facilities</h2>
-          <p>Details about the school's infrastructure and facilities. Our school is equipped with state-of-the-art facilities to provide the best learning environment for our students.</p>
+         <ul> 
+           <li> State-of-the-art science and computer labs</li>
+<li>Spacious and well-equipped classrooms</li>
+<li>Library with a vast collection of books and digital resources</li>
+<li>Sports facilities including a playground, gymnasium, and swimming pool</li>
+</ul>
         </Col>
       </Row>
 
@@ -40,7 +45,9 @@ const AboutUs = () => {
         </Col>
         <Col md={6}>
           <h2><FaSchool /> Our History, Vision, Mission, and Values</h2>
-          <p>Our school has a rich history of academic excellence. Our vision is to create future leaders, our mission is to provide quality education, and our values include integrity, respect, and responsibility.</p>
+          <p>History: "Founded in 1985, Springdale Public School has been dedicated to providing quality education and holistic development to students.</p>
+          <p>Vision: To create a learning environment that fosters academic excellence, critical thinking, and ethical values.</p>
+          <p>Mission: "To empower students with the knowledge, skills, and values needed to thrive in a dynamic world.</p>
         </Col>
       </Row>
     </Container>

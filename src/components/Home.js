@@ -7,29 +7,30 @@ const Home = () => {
   return (
     <div className="container mt-5">
       <div className="text-center">
-        <h1 className="mb-4">Welcome to Our School</h1>
+        <h1 className="mb-4">Welcome to Our School Springdale Public School</h1>
+        <p>Welcome to Springdale Public School, where we nurture young minds for a brighter future.</p>
       </div>
       
       <Carousel className="mb-5">
         <Carousel.Item>
           <img className="d-block w-100" src="https://coreldrawdesign.com/resources/previews/preview-school-banner-design-education-&-school-promotion-template-free-vector-1624284099.jpg" alt="First slide" />
           <Carousel.Caption>
-            <h3 className="bg-dark bg-opacity-50 p-2 rounded">First slide label</h3>
-            <p className="bg-dark bg-opacity-50 p-2 rounded">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3 className="bg-dark bg-opacity-50 p-2 rounded">Annual Sports Day</h3>
+            <p className="bg-dark bg-opacity-50 p-2 rounded">Celebrating Excellence in Sports</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src="https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/white-and-grape-kid-creative-school-banner-template-0ygyd5151bb7c8.webp" alt="Second slide" />
           <Carousel.Caption>
-            <h3 className="bg-dark bg-opacity-50 p-2 rounded">Second slide label</h3>
-            <p className="bg-dark bg-opacity-50 p-2 rounded">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 className="bg-dark bg-opacity-50 p-2 rounded">Science Exhibition</h3>
+            <p className="bg-dark bg-opacity-50 p-2 rounded">Showcasing Student Innovations</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src="https://coreldrawdesign.com/resources/previews/preview-school-banner-design-education-&-school-promotion-template-free-vector-1624284099.jpg" alt="Third slide" />
           <Carousel.Caption>
-            <h3 className="bg-dark bg-opacity-50 p-2 rounded">Third slide label</h3>
-            <p className="bg-dark bg-opacity-50 p-2 rounded">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3 className="bg-dark bg-opacity-50 p-2 rounded">Cultural Fest</h3>
+            <p className="bg-dark bg-opacity-50 p-2 rounded">Embracing Diversity and Creativity</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

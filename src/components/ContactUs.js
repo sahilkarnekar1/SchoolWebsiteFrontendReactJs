@@ -29,15 +29,15 @@ const ContactUs = () => {
       <Row className="mb-4">
         <Col md={4} className="text-center">
           <FaMapMarkerAlt size={30} className="mb-2" />
-          <p>123 School St, Education City, ED 45678</p>
+          <p>Springdale Public School, 123 Education Lane, Cityville, State, ZIP Code 402203</p>
         </Col>
         <Col md={4} className="text-center">
           <FaPhoneAlt size={30} className="mb-2" />
-          <p>(123) 456-7890</p>
+          <p>+1 (123) 456-7890</p>
         </Col>
         <Col md={4} className="text-center">
           <FaEnvelope size={30} className="mb-2" />
-          <p>info@schoolwebsite.com</p>
+          <p>info@springdale.edu</p>
         </Col>
       </Row>
       <Row className="mb-5">

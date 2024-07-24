@@ -6,17 +6,45 @@ import { FaChalkboardTeacher, FaGraduationCap, FaStar } from 'react-icons/fa';
 
 const facultyMembers = [
   {
-    name: 'Virat Kohli',
+    name: 'John Doe',
     position: 'Principal',
-    qualifications: 'PhD in Cricket',
-    experience: '20 years',
+    qualifications: 'M.Ed',
+    experience: '20 years of experience in educational administration',
     image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png', // Placeholder image
   },
   {
-    name: 'Rohit Sharma',
+    name: 'Jane Smith',
     position: 'Vice Principal',
-    qualifications: 'M.Ed. in Cricket',
-    experience: '15 years',
+    qualifications: 'M.Sc. in Physics',
+    experience: '15 years of teaching experience',
+    image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', // Placeholder image
+  },
+  {
+    name: 'Emily Johnson',
+    position: 'English Teacher',
+    qualifications: 'M.A. in English',
+    experience: '10 years of teaching experience',
+    image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', // Placeholder image
+  },
+  {
+    name: 'Michael Brown',
+    position: 'Mathematics Teacher',
+    qualifications: 'M.Sc. in Mathematics',
+    experience: '8 years of teaching experience',
+    image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', // Placeholder image
+  },
+  {
+    name: 'Sophia Davis',
+    position: 'Science Teacher',
+    qualifications: 'M.Sc. in Chemistry',
+    experience: '12 years of teaching experience',
+    image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', // Placeholder image
+  },
+  {
+    name: 'David Wilson',
+    position: ' Computer Science Teacher',
+    qualifications: 'B.Tech in Computer Science',
+    experience: '5 years of teaching experience',
     image: 'https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png', // Placeholder image
   },
   

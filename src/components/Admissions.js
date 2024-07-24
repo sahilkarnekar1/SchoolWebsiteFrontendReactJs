@@ -36,10 +36,10 @@ const Admissions = () => {
               <Card.Title><FaCalendarAlt /> Important Dates and Deadlines</Card.Title>
               <Card.Text>
                 <ul>
-                  <li>Application Start Date: January 1</li>
-                  <li>Application Deadline: March 31</li>
-                  <li>Entrance Exam: April 15</li>
-                  <li>Result Announcement: May 1</li>
+                  <li>Admission Form Availability: March 1st</li>
+                  <li>Last Date for Submission: March 31st</li>
+                  <li>Entrance Test: April 15th</li>
+                  <li>Announcement of Results: April 30th</li>
                 </ul>
               </Card.Text>
             </Card.Body>
@@ -65,9 +65,9 @@ const Admissions = () => {
               <Card.Text>
                 <ul>
                   <li>Step 1: Complete the online application form.</li>
-                  <li>Step 2: Submit the required documents.</li>
+                  <li>Step 2: Submit the required documents at the school office.</li>
                   <li>Step 3: Appear for the entrance exam.</li>
-                  <li>Step 4: Attend the interview (if applicable).</li>
+                  <li>Step 4: Admission is based on merit and availability of seats..</li>
                   <li>Step 5: Await the admission decision.</li>
                 </ul>
                 <p>Criteria: Students are evaluated based on their academic performance, entrance exam scores, and interview (if applicable).</p>

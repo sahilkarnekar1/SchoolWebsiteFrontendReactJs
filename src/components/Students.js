@@ -6,13 +6,13 @@ import { FaFlask, FaPalette, FaTrophy, FaUsers } from 'react-icons/fa';
 
 const activities = [
   {
-    name: 'Science Club',
-    description: 'Explore the world of science with fun experiments and projects.',
+    name: 'Extracurricular Activities',
+    description: 'Music, Dance, Drama, Art, Sports, Robotics, Debate Club, Science Club',
     icon: <FaFlask />,
   },
   {
-    name: 'Art Club',
-    description: 'Express your creativity through various forms of art.',
+    name: 'Clubs and Societies',
+    description: 'Literary Society, Environmental Club, Astronomy Club, Coding Club',
     icon: <FaPalette />,
   },
   // Add more activities as needed
@@ -20,13 +20,18 @@ const activities = [
 
 const achievements = [
   {
-    title: 'Math Olympiad Winner',
-    description: 'Our student won the national math olympiad.',
+    title: 'John Smith',
+    description: 'National Level Math Olympiad Winner',
     icon: <FaTrophy />,
   },
   {
-    title: 'Science Fair Champion',
-    description: 'First place in the state science fair.',
+    title: 'Sarah Lee',
+    description: 'Gold Medalist in State Swimming Championship',
+    icon: <FaTrophy />,
+  },
+  {
+    title: 'Tech Innovators Club',
+    description: 'Winners of Inter-School Robotics Competition',
     icon: <FaTrophy />,
   },
   // Add more achievements as needed
@@ -37,7 +42,7 @@ const Students = () => {
     <Container className="mt-5">
       <Row className="text-center mb-5">
         <Col>
-          <h1>Student Life</h1>
+          <h1>Life at Springdale</h1>
           <p className="lead">Discover the vibrant life of our students.</p>
         </Col>
       </Row>
@@ -91,7 +96,14 @@ const Students = () => {
                 <FaUsers /> <span className="ml-2">Join our Student Council</span>
               </Card.Title>
               <Card.Text>
-                Develop leadership skills and represent your peers in our student council.
+                <ul>
+                    <li>President: Amy Parker, Grade 12
+                    </li>
+                    <li>Vice President: Rajiv Mehta, Grade 11
+                    </li>
+                    <li>Secretary: Lisa Wong, Grade 10
+                    </li>
+                </ul>
               </Card.Text>
             </Card.Body>
           </Card>

@@ -3,23 +3,26 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaBook, FaChalkboardTeacher, FaMicroscope } from 'react-icons/fa';
+import './Academics.css'; // Make sure to create and import this CSS file
 
 const curriculum = [
   {
-    level: 'Primary',
-    subjects: ['Math', 'Science', 'English', 'Social Studies'],
+    level: 'Primary (Grades 1-5)',
+    subjects: ['English', 'Mathematics', 'Science', 'Social Studies', 'Art', 'Physical Education'],
     methodology: 'Activity-based learning with interactive sessions.',
     icon: <FaBook />,
   },
   {
-    level: 'Secondary',
-    subjects: ['Math', 'Science', 'English', 'History', 'Geography'],
+    level: 'Secondary (Grades 6-10)',
+    subjects: ['English', 'Mathematics', 'Science (Physics, Chemistry, Biology)', 'Social Studies', 'Computer Science', 'Physical Education', 'Art'],
     methodology: 'Focus on concept clarity and practical applications.',
     icon: <FaChalkboardTeacher />,
   },
   {
-    level: 'Senior Secondary',
-    subjects: ['Math', 'Physics', 'Chemistry', 'Biology', 'Computer Science'],
+    level: 'Senior Secondary (Grades 11-12)',
+    stream: ['Science Stream', 'Commerce Stream'],
+    scienceSubjects: ['Physics', 'Chemistry', 'Biology', 'Mathematics', 'Computer Science', 'English'],
+    commerceSubjects: ['Accountancy', 'Business Studies', 'Economics', 'Mathematics', 'English'],
     methodology: 'Advanced learning with specialized resources.',
     icon: <FaMicroscope />,
   },
@@ -45,8 +48,21 @@ const Academics = () => {
                   <Card.Title>{course.level}</Card.Title>
                 </div>
                 <Card.Text>
-                  <strong>Subjects:</strong> {course.subjects.join(', ')}
+                  <strong>Subjects:</strong> {course.subjects ? course.subjects.join(', ') : 'N/A'}
                 </Card.Text>
+                {course.stream && (
+                  <>
+                    <Card.Text>
+                      <strong>Streams:</strong> {course.stream.join(', ')}
+                    </Card.Text>
+                    <Card.Text>
+                      <strong>Science Subjects:</strong> {course.scienceSubjects.join(', ')}
+                    </Card.Text>
+                    <Card.Text>
+                      <strong>Commerce Subjects:</strong> {course.commerceSubjects.join(', ')}
+                    </Card.Text>
+                  </>
+                )}
                 <Card.Text>
                   <strong>Teaching Methodology:</strong> {course.methodology}
                 </Card.Text>
@@ -54,6 +70,32 @@ const Academics = () => {
             </Card>
           </Col>
         ))}
+      </Row>
+
+      <Row className="mt-5">
+        <Col>
+          <Card className="text-center p-4">
+            <Card.Body>
+              <Card.Title className="h3">Teaching Methodologies</Card.Title>
+              <Card.Text>
+                We use a blend of traditional and modern teaching techniques to cater to different learning styles.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
+      <Row className="mt-4">
+        <Col>
+          <Card className="text-center p-4">
+            <Card.Body>
+              <Card.Title className="h3">Educational Resources</Card.Title>
+              <Card.Text>
+                Digital classrooms, interactive learning modules, and access to online educational platforms.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );
